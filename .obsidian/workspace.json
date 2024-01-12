@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Regression/Linear Regression.md",
+                "file": "Regression/Simple Linear Regression.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Regression/Linear Regression.md",
+                "file": "Regression/Simple Linear Regression.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Regression/Linear Regression.md",
+                "file": "Regression/Simple Linear Regression.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Regression/Linear Regression.md"
+                "file": "Regression/Simple Linear Regression.md"
               }
             }
           }
@@ -160,8 +160,8 @@
   },
   "active": "4fab1c58d260253d",
   "lastOpenFiles": [
-    "Regression.md",
     "Regression/Linear Regression.md",
+    "Regression.md",
     "Supervised Machine Learning.md",
     "Machine Learning.md",
     "Regression/Simple Linear Regression.md",

@@ -7,8 +7,16 @@ $$ \text{Simple Linear Regression Equation:} \\  Y = \beta_0 + \beta_1 X + \vare
 
 Where:
 - (Y) is the dependent/target variable.
-- (X_1, X_2, ... , X_n) are the independent variables/ features.
-- \( \beta_0 \) is the intercept.
-- (beta_1, beta_2, ... , beta_n) are the coefficients for each \( X \) variable. 
+- (X) is the independent variable/ feature.
+- (beta_0) is the intercept.
+- (beta_1) is the coefficient for the (X) variable, that determines the slope of the graph.
 
-The goal of linear regression is to estimate the values for the beta_0 and beta_1 that minimise the sum of the squared differences
+The goal of simple linear regression is to estimate the values for the beta_0 and beta_1 that minimize the sum of the squared differences. The mean squared is calculated like shown:
+
+$$ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 $$
+Where:
+- (n) is the number of data points.
+- ($yi$) is the actual value of the target variable.
+- $(\hat{y_i})$ is the predicted value of the target variable.
+
+Basicly we sum the squared difference between the predicted values for y and the actual values for y, then use this to calculate the mean.
